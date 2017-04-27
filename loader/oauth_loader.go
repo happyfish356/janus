@@ -2,9 +2,9 @@ package loader
 
 import (
 	log "github.com/Sirupsen/logrus"
-	"github.com/hellofresh/janus/pkg/oauth"
-	"github.com/hellofresh/janus/pkg/proxy"
-	"github.com/hellofresh/janus/pkg/store"
+	"oauth"
+	"proxy"
+	"store"
 	"github.com/rs/cors"
 )
 

@@ -4,13 +4,13 @@ import (
 	"strings"
 	"time"
 
+	"config"
 	log "github.com/Sirupsen/logrus"
 	"github.com/bshuster-repo/logrus-logstash-hook"
-	"github.com/hellofresh/janus/pkg/config"
-	tracerfactory "github.com/hellofresh/janus/pkg/opentracing"
-	"github.com/hellofresh/janus/pkg/store"
 	stats "github.com/hellofresh/stats-go"
 	opentracing "github.com/opentracing/opentracing-go"
+	tracerfactory "opentracing"
+	"store"
 )
 
 var (

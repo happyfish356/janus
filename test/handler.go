@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/hellofresh/janus/pkg/errors"
-	"github.com/hellofresh/janus/pkg/response"
+	"response"
 )
 
 // Ping is a test handler

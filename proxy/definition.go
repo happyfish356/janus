@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/asaskevich/govalidator"
-	"github.com/hellofresh/janus/pkg/router"
+	"router"
 )
 
 // Route is the container for a proxy and it's handlers

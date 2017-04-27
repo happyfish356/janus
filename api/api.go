@@ -2,8 +2,8 @@ package api
 
 import (
 	"github.com/asaskevich/govalidator"
-	"github.com/hellofresh/janus/pkg/oauth"
-	"github.com/hellofresh/janus/pkg/proxy"
+	"oauth"
+	"proxy"
 )
 
 // Spec Holds an api definition and basic options

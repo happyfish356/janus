@@ -2,11 +2,11 @@ package loader
 
 import (
 	log "github.com/Sirupsen/logrus"
-	"github.com/hellofresh/janus/pkg/api"
-	"github.com/hellofresh/janus/pkg/middleware"
-	"github.com/hellofresh/janus/pkg/plugin"
-	"github.com/hellofresh/janus/pkg/proxy"
-	"github.com/hellofresh/janus/pkg/router"
+	"api"
+	"middleware"
+	plugin "plugin1"
+	"proxy"
+	"router"
 )
 
 // APILoader is responsible for loading all apis form a datastore and configure them in a register

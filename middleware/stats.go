@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/hellofresh/janus/pkg/response"
+	"response"
 	"github.com/hellofresh/stats-go"
 )
 

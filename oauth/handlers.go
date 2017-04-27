@@ -4,11 +4,11 @@ import (
 	"net/http"
 
 	"github.com/hellofresh/janus/pkg/errors"
-	"github.com/hellofresh/janus/pkg/notifier"
-	"github.com/hellofresh/janus/pkg/opentracing"
-	"github.com/hellofresh/janus/pkg/request"
-	"github.com/hellofresh/janus/pkg/response"
-	"github.com/hellofresh/janus/pkg/router"
+	"notifier"
+	"opentracing"
+	"request"
+	"response"
+	"router"
 )
 
 // Controller is the api rest controller

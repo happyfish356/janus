@@ -4,15 +4,15 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/hellofresh/janus/pkg/api"
-	"github.com/hellofresh/janus/pkg/middleware"
-	"github.com/hellofresh/janus/pkg/plugin"
-	"github.com/hellofresh/janus/pkg/proxy"
-	"github.com/hellofresh/janus/pkg/router"
-	"github.com/hellofresh/janus/pkg/test"
-	"github.com/hellofresh/janus/pkg/web"
+	"api"
 	stats "github.com/hellofresh/stats-go"
 	"github.com/stretchr/testify/assert"
+	"middleware"
+	"plugin"
+	"proxy"
+	"router"
+	"test"
+	"web"
 )
 
 var tests = []struct {

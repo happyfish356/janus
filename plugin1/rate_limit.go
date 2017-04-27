@@ -1,11 +1,11 @@
-package plugin
+package plugin1
 
 import (
-	"github.com/hellofresh/janus/pkg/api"
+	"api"
 	"github.com/hellofresh/janus/pkg/errors"
-	"github.com/hellofresh/janus/pkg/middleware"
-	"github.com/hellofresh/janus/pkg/router"
-	"github.com/hellofresh/janus/pkg/store"
+	"middleware"
+	"router"
+	"store"
 	"github.com/ulule/limiter"
 )
 

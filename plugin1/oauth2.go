@@ -1,12 +1,12 @@
-package plugin
+package plugin1
 
 import (
 	log "github.com/Sirupsen/logrus"
-	"github.com/hellofresh/janus/pkg/api"
-	"github.com/hellofresh/janus/pkg/middleware"
-	"github.com/hellofresh/janus/pkg/oauth"
-	"github.com/hellofresh/janus/pkg/router"
-	"github.com/hellofresh/janus/pkg/store"
+	"api"
+	"middleware"
+	"oauth"
+	"router"
+	"store"
 )
 
 // OAuth2 checks the integrity of the provided OAuth headers

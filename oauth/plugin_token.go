@@ -9,8 +9,8 @@ import (
 	"net/url"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/hellofresh/janus/pkg/session"
-	"github.com/hellofresh/janus/pkg/store"
+	"session"
+	"store"
 )
 
 // TokenPlugin represents an outbound plugin for handling oauth tokens

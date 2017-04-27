@@ -5,7 +5,7 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/garyburd/redigo/redis"
-	"github.com/hellofresh/janus/pkg/notifier"
+	"notifier"
 )
 
 // RedisStore is the redis store.

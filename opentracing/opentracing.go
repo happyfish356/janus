@@ -7,8 +7,8 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	gcloudtracer "github.com/hellofresh/gcloud-opentracing"
-	"github.com/hellofresh/janus/pkg/config"
-	"github.com/hellofresh/janus/pkg/opentracing/appdash"
+	"config"
+	"opentracing/appdash"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

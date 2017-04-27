@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/hellofresh/janus/pkg/router"
+	"router"
 )
 
 const (

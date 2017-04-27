@@ -7,7 +7,7 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/hellofresh/janus/pkg/session"
+	"session"
 )
 
 // JWTManager is responsible for managing the JWT tokens

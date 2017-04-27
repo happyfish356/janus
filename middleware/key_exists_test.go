@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/hellofresh/janus/pkg/oauth"
-	"github.com/hellofresh/janus/pkg/session"
-	"github.com/hellofresh/janus/pkg/store"
-	"github.com/hellofresh/janus/pkg/test"
 	"github.com/stretchr/testify/assert"
+	"oauth"
+	"session"
+	"store"
+	"test"
 )
 
 func TestValidKeyStorage(t *testing.T) {

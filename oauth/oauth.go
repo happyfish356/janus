@@ -1,7 +1,7 @@
 package oauth
 
 import (
-	"github.com/hellofresh/janus/pkg/proxy"
+	"proxy"
 )
 
 // AccessRequestType is the type for OAuth param `grant_type`

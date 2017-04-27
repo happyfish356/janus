@@ -8,9 +8,9 @@ import (
 	"strconv"
 
 	log "github.com/Sirupsen/logrus"
-	base "github.com/hellofresh/janus/pkg/opentracing"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
+	base "opentracing"
 )
 
 // OpenTracing is a middleware that traces the request latency

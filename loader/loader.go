@@ -1,12 +1,12 @@
 package loader
 
 import (
-	"github.com/hellofresh/janus/pkg/api"
-	"github.com/hellofresh/janus/pkg/oauth"
-	"github.com/hellofresh/janus/pkg/plugin"
-	"github.com/hellofresh/janus/pkg/proxy"
-	"github.com/hellofresh/janus/pkg/router"
-	"github.com/hellofresh/janus/pkg/store"
+	"api"
+	"oauth"
+	plugin "plugin1"
+	"proxy"
+	"router"
+	"store"
 )
 
 // Params initialization options.

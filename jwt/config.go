@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/hellofresh/janus/pkg/config"
-	"github.com/hellofresh/janus/pkg/response"
+	"config"
+	"response"
 )
 
 // Config struct

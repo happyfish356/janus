@@ -7,7 +7,7 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/hellofresh/janus/pkg/response"
+	"response"
 )
 
 // Logger struct contains data and logic required for middleware functionality

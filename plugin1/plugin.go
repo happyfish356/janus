@@ -1,10 +1,10 @@
-package plugin
+package plugin1
 
 import (
 	"sync"
 
-	"github.com/hellofresh/janus/pkg/api"
-	"github.com/hellofresh/janus/pkg/router"
+	"api"
+	"router"
 )
 
 // Plugin defines basic methods for plugins

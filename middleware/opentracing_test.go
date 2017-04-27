@@ -5,8 +5,8 @@ import (
 
 	"net/http"
 
-	"github.com/hellofresh/janus/pkg/test"
 	"github.com/stretchr/testify/assert"
+	"test"
 )
 
 func TestSuccessfulTrace(t *testing.T) {

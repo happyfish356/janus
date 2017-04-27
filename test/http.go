@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/hellofresh/janus/pkg/router"
+	"router"
 )
 
 // Server represents a testing HTTP Server

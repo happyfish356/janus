@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/hellofresh/janus/pkg/session"
-	"github.com/hellofresh/janus/pkg/store"
+	"session"
+	"store"
 )
 
 // StorageTokenManager is responsible for managing the access tokens

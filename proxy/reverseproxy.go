@@ -10,7 +10,7 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/hellofresh/janus/pkg/router"
+	"router"
 	stats "github.com/hellofresh/stats-go"
 )
 

@@ -7,8 +7,8 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/hellofresh/janus/pkg/errors"
-	"github.com/hellofresh/janus/pkg/oauth"
-	"github.com/hellofresh/janus/pkg/request"
+	"oauth"
+	"request"
 )
 
 // Enums for keys to be stored in a session context - this is how gorilla expects

@@ -1,8 +1,8 @@
-package plugin
+package plugin1
 
 import (
-	"github.com/hellofresh/janus/pkg/api"
-	"github.com/hellofresh/janus/pkg/router"
+	"api"
+	"router"
 	"github.com/pressly/chi/middleware"
 )
 
