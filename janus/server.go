@@ -5,9 +5,11 @@ import (
 	"net/http"
 	"net/url"
 
-	log "github.com/Sirupsen/logrus"
 	"api"
+	log "github.com/Sirupsen/logrus"
 	"github.com/hellofresh/janus/pkg/errors"
+	"github.com/spf13/cobra"
+	mgo "gopkg.in/mgo.v2"
 	"loader"
 	"middleware"
 	"notifier"
@@ -15,8 +17,6 @@ import (
 	"proxy"
 	"router"
 	"web"
-	"github.com/spf13/cobra"
-	mgo "gopkg.in/mgo.v2"
 )
 
 var (

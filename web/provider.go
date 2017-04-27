@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"net/http"
 
-	log "github.com/Sirupsen/logrus"
 	"api"
 	"config"
+	log "github.com/Sirupsen/logrus"
+	chimiddleware "github.com/pressly/chi/middleware"
+	"github.com/rs/cors"
 	"jwt"
 	"middleware"
 	"notifier"
 	"oauth"
 	"router"
-	chimiddleware "github.com/pressly/chi/middleware"
-	"github.com/rs/cors"
 )
 
 // Provider is a provider.Provider implementation that provides the REST API.

@@ -2,8 +2,8 @@ package plugin1
 
 import (
 	"api"
-	"router"
 	"github.com/rs/cors"
+	"router"
 )
 
 // CORS represents the cors plugin

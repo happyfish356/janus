@@ -10,8 +10,8 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
-	"router"
 	stats "github.com/hellofresh/stats-go"
+	"router"
 )
 
 const (

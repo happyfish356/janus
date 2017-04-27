@@ -1,8 +1,8 @@
 package loader
 
 import (
-	log "github.com/Sirupsen/logrus"
 	"api"
+	log "github.com/Sirupsen/logrus"
 	"middleware"
 	plugin "plugin1"
 	"proxy"

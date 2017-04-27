@@ -6,8 +6,8 @@ import (
 	"sync"
 
 	log "github.com/Sirupsen/logrus"
-	"response"
 	"github.com/hellofresh/stats-go"
+	"response"
 )
 
 // Stats represents the stats middleware

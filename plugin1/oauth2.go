@@ -1,8 +1,8 @@
 package plugin1
 
 import (
-	log "github.com/Sirupsen/logrus"
 	"api"
+	log "github.com/Sirupsen/logrus"
 	"middleware"
 	"oauth"
 	"router"

@@ -2,10 +2,10 @@ package loader
 
 import (
 	log "github.com/Sirupsen/logrus"
+	"github.com/rs/cors"
 	"oauth"
 	"proxy"
 	"store"
-	"github.com/rs/cors"
 )
 
 // OAuthLoader handles the loading of the api specs

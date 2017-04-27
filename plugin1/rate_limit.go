@@ -3,10 +3,10 @@ package plugin1
 import (
 	"api"
 	"github.com/hellofresh/janus/pkg/errors"
+	"github.com/ulule/limiter"
 	"middleware"
 	"router"
 	"store"
-	"github.com/ulule/limiter"
 )
 
 const (

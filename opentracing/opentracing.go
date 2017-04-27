@@ -5,11 +5,11 @@ import (
 
 	"net/http"
 
+	"config"
 	log "github.com/Sirupsen/logrus"
 	gcloudtracer "github.com/hellofresh/gcloud-opentracing"
-	"config"
-	"opentracing/appdash"
 	opentracing "github.com/opentracing/opentracing-go"
+	"opentracing/appdash"
 )
 
 const (
